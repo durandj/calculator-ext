@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Calculator",
+    "version": "<%= version %>",
+    "description": "Calculator extension for Chrome",
+
+    "background": {
+        "scripts": [
+            "./background.js"
+        ]
+    },
+    "browser_action": {
+        "default_icon": {},
+        "default_title": "Calculator"
+    }
+}
